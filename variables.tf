@@ -1,27 +1,27 @@
 variable "google_region" {
-  default = "us-east1"
+  type = string
 }
 
 variable "cluster_name" {
-  default = "example-gke-cluster"
+  type = string
 }
 
 variable "node_pool_name" {
-  default = "example-node-pool"
+  type = string
 }
 
 variable "project_id" {
-  default = "manifest-truth-340920"
+  type = string
 }
 
 variable "service_account_email" {
-  default = "<insert service account email here>"
+  type = string
 }
 
 variable "nodeconfig_machine_type" {
-  default = "e2-medium"
+  type = string
 }
 
 variable "vpc_cidr" {
-  default = "10.10.0.0/24"
+  type = string
 }
