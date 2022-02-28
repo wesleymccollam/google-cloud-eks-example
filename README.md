@@ -1,5 +1,5 @@
 # Example Terraform GCP GKE Deployment
-## This will allow you to setup an example Google Cloud plat
+
 ## Steps to get this working ##
 * 1\. gcloud init
 * 2\. gcloud auth application-default login
