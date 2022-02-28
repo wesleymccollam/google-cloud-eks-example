@@ -15,7 +15,7 @@ variable "project_id" {
 }
 
 variable "service_account_email" {
-  default = "default-service-account@manifest-truth-340920.iam.gserviceaccount.com"
+  default = "<insert service account email here>"
 }
 
 variable "nodeconfig_machine_type" {
